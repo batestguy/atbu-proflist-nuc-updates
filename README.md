@@ -11,39 +11,61 @@ A desktop application for managing professor records at Abubakar Tafawa Balewa U
 
 ---
 
-## ✨ Features
+## Screenshots
 
-### 📊 Dashboard
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### All Professors
+![All Professors](screenshots/all_professors.png)
+
+### Add Professor
+![Add Professor](screenshots/add_professor.png)
+
+### Import / Export
+![Import/Export](screenshots/import_export.png)
+
+### About
+![About](screenshots/about.png)
+
+### Settings
+![Settings](screenshots/settings.png)
+
+---
+
+## Features
+
+### Dashboard
 - Real-time statistics: Total professors, Active, Retired, Faculties, Departments
 - Visual charts: Professors by Faculty (bar chart), Professors by Gender
 - Quick overview of database health
 
-### 👨‍🏫 Professor Management
+### Professor Management
 - **223 professor records** (216 active, 7 retired)
 - Searchable/filterable DataTable with 8 columns
 - Color-coded status chips: All 🟢 | Active 🔵 | Retired 🔴 | Edit Mode 🟡
 - Inline copy-to-clipboard for professor details
 - Password-protected editing with confirmation dialogs
 
-### 📥 Import/Export
+### Import/Export
 - **NUC Format Export** — Generates Excel files in the format required by the National Universities Commission
 - **Excel Import** — Auto-detects 3-section Excel format with professor data
 - **Backup Database** — One-click SQLite backup to any location
 - **Import History** — Tracks last 10 imports with stats
 
-### 🔐 Security
+### Security
 - Password-protected editing (bcrypt hashed)
 - Emergency password reset
 - Role-based access control
 
-### 🎨 ATBU Branding
+### ATBU Branding
 - Custom sidebar with ATBU logo and colors
 - Personalized for the Director of Academic Planning
 - Version 1.1.0
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.12+
@@ -81,7 +103,7 @@ pyinstaller --onefile --noconsole --add-data assets;assets --add-data data;data 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 atbu_professors_app/
@@ -100,13 +122,20 @@ atbu_professors_app/
 │   └── import_export_screen.py # Import/Export UI
 ├── assets/
 │   └── atbu_logo.png          # ATBU logo
+├── screenshots/               # App screenshots for documentation
+│   ├── dashboard.png
+│   ├── all_professors.png
+│   ├── add_professor.png
+│   ├── import_export.png
+│   ├── about.png
+│   └── settings.png
 └── data/
     └── professors.db          # SQLite database
 ```
 
 ---
 
-## 📊 Database Schema
+## Database Schema
 
 | Table | Description |
 |-------|-------------|
@@ -117,7 +146,7 @@ atbu_professors_app/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend:** [Flet](https://flet.dev) 0.86.3 (Flutter-based Python UI)
 - **Database:** SQLite 3 + SQLAlchemy 2.0
@@ -127,7 +156,7 @@ atbu_professors_app/
 
 ---
 
-## 📋 NUC Format
+## NUC Format
 
 The app generates Excel files in the **National Universities Commission (NUC)** format for professor list updates, including:
 - Faculty name
@@ -138,7 +167,7 @@ The app generates Excel files in the **National Universities Commission (NUC)** 
 
 ---
 
-## 👨‍💻 About
+## About
 
 **Innovation by:** Prof. Abdulkadir Ahmed  
 **Position:** Director of Academic Planning, ATBU  
@@ -146,13 +175,13 @@ The app generates Excel files in the **National Universities Commission (NUC)** 
 
 ---
 
-## 📄 License
+## License
 
 MIT License - See [LICENSE](LICENSE) for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **ATBU** — Abubakar Tafawa Balewa University
 - **NUC** — National Universities Commission

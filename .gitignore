@@ -52,6 +52,9 @@ desktop.ini
 # ReportLab generated files
 *.pdf
 
+# Screenshots - KEEP these for README
+# screenshots/
+
 # Flet runtime (downloaded separately)
 flet_view/
 

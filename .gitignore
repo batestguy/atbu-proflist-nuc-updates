@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Virtual environments
+appdev-env/
+appdev-conda/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+*.egg
+*.spec
+
+# PyInstaller
+*.exe
+*.manifest
+*.spec
+
+# Database (keep schema, not data)
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+
+# ReportLab generated files
+*.pdf
+
+# Flet runtime (downloaded separately)
+flet_view/
+
+# Exe backups
+data.exe-backup/
+
+# Temp utilities
+run_import.py
+launch_app.bat
